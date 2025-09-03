@@ -24,7 +24,7 @@ The model is trained on customer demographic and financial data and outputs chur
 
 ---
 
-## ⚙️ Installation
+## ⚙️Installation
 
 Clone this repository and install dependencies:
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## 🚀Usage
 
 Run the Jupyter Notebook:
 
@@ -50,10 +50,10 @@ Or load the pre-trained model for predictions:
 import joblib
 import pandas as pd
 
-# Load XGBoost model
+#Load XGBoost model
 xgb_model = joblib.load("models/xgboost_churn_model.pkl")
 
-# Example usage
+#Example usage
 X_new = pd.DataFrame([[600, 40, 3, 60000]],
                      columns=["CreditScore","Age","NumOfProducts","EstimatedSalary"])
 xgb_pred = xgb_model.predict(X_new)
@@ -73,7 +73,7 @@ print("XGBoost Churn Prediction:", xgb_pred)
 
 ---
 
-## 🔑 Key Features & Insights
+## 🔑Key Features & Insights
 
 Top features contributing to churn (XGBoost Feature Importance):
 - NumOfProducts → 28.0%  
@@ -90,7 +90,7 @@ Insights:
 
 ---
 
-## 📌 Next Steps
+## Next Steps
 
 - Compare XGBoost with Logistic Regression and other models (Random Forest, Gradient Boosting)
 - Tune hyperparameters for better performance
@@ -99,7 +99,7 @@ Insights:
 
 ---
 
-## 📜 Requirements
+## Requirements
 
 Dependencies are listed in `requirements.txt`, including:
 - pandas  
@@ -113,7 +113,7 @@ Dependencies are listed in `requirements.txt`, including:
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻Author
 
 Created by **Lashmi M.**, feel free to reach out!
 
