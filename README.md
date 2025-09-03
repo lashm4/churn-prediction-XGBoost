@@ -1,11 +1,11 @@
-# 🏦 Customer Churn Prediction (XGBoost)
+# 🏦Customer Churn Prediction (XGBoost)
 
-## 📌 Project Overview
+## Project Overview
 
 This project predicts **customer churn** (whether a customer leaves the bank) using **XGBoost**.  
 The model is trained on customer demographic and financial data and outputs churn risk.
 
-### 🔑 Key Steps:
+### 🔑Key Steps:
 1. Data cleaning & preprocessing
 2. Train/Test split
 3. Model training
@@ -16,7 +16,7 @@ The model is trained on customer demographic and financial data and outputs chur
 
 ---
 
-## 📊 Dataset
+## 📊Dataset
 
 - **Source:** [Bank Customer Churn Dataset (Kaggle)](https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction)  
 - **Target:** `Exited` → (1 = Churned, 0 = Stayed)  
