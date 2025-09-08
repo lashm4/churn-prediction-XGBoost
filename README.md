@@ -95,7 +95,7 @@ Insights:
 - Compare XGBoost with Logistic Regression and other models (Random Forest, Gradient Boosting)
 - Tune hyperparameters for better performance
 - Deploy model via Streamlit or Flask for real-time predictions
-- Monitor model performance on new data
+- Dashboard comparison -> https://public.tableau.com/views/ChurnInsightsDashboard/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
