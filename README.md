@@ -1,11 +1,11 @@
-# 🏦Customer Churn Prediction (XGBoost)
+# Customer Churn Prediction (XGBoost)
 
 ## Project Overview
 
 This project predicts **customer churn** (whether a customer leaves the bank) using **XGBoost**.  
 The model is trained on customer demographic and financial data and outputs churn risk.
 
-### 🔑Key Steps:
+### Key Steps:
 1. Data cleaning & preprocessing
 2. Train/Test split
 3. Model training
@@ -16,7 +16,7 @@ The model is trained on customer demographic and financial data and outputs chur
 
 ---
 
-## 📊Dataset
+## Dataset
 
 - **Source:** [Bank Customer Churn Dataset (Kaggle)](https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction)  
 - **Target:** `Exited` → (1 = Churned, 0 = Stayed)  
@@ -24,7 +24,7 @@ The model is trained on customer demographic and financial data and outputs chur
 
 ---
 
-## ⚙️Installation
+## Installation
 
 Clone this repository and install dependencies:
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀Usage
+## Usage
 
 Run the Jupyter Notebook:
 
@@ -62,7 +62,7 @@ print("XGBoost Churn Prediction:", xgb_pred)
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 - **Test Accuracy:** 86.8%  
 - **ROC-AUC:** 0.728 → good separation of churners  
@@ -73,7 +73,7 @@ print("XGBoost Churn Prediction:", xgb_pred)
 
 ---
 
-## 🔑Key Features & Insights
+## Key Features & Insights
 
 Top features contributing to churn (XGBoost Feature Importance):
 - NumOfProducts → 28.0%  
@@ -113,7 +113,7 @@ Dependencies are listed in `requirements.txt`, including:
 
 ---
 
-## 👩‍💻Author
+## 👩🏻‍💻Author
 
 Created by **Lashmi M.**, feel free to reach out!
 
